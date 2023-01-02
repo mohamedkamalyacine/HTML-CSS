@@ -1,0 +1,93 @@
+* {
+    padding:0;
+    margin: 0;
+}
+
+body {
+    background-image: url(../images/img01.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navBar {
+    background-color: black;
+    overflow: hidden;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: orangered;
+}
+
+.navBar a {
+    float: left;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 10px;
+    font-size: 17px;
+    width: 100px;
+    margin-right: 10px;
+}
+
+.navBar button {
+    color: white;
+    background-color:red;
+    text-decoration: none;
+    border-radius: 12px;
+    text-align: center;
+    float: right;
+    padding: 14px 10px;
+    width: 100px;
+    margin-right: 50px;
+}
+
+img {
+    width: 150px;
+    height: 250px;
+    margin-left: 4px;
+}
+
+p {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.block1 {
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 200px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    width: 350px;
+    height: 350px;
+}
+
+.block2 {
+    display: inline-block;
+    margin-left: 3px;
+    margin-top: 200px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    width: 350px;
+    height: 350px;
+    margin-inline: 150px;
+}
+
+.block3 {
+    display: inline-block;
+    margin-left: 3px;
+    margin-top: 200px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    width: 350px;
+    height: 350px;
+    margin-right: 3px;
+}
